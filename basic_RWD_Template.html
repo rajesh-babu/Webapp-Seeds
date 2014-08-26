@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<style>
+		div{display:block;}
+		
+		@media all and (max-width: 719px){
+			
+		}
+		@media all and(min-width: 720px) and (max-width: 959px){
+			
+		}
+		@media all and (min-width: 960px){
+
+			#page_wrapper header, #content_wrapper{
+				width: 60em;	
+				margin: 0 auto;
+		
+			}
+			#nav_inner{
+				float:left;
+				width: 18.666em;
+			}
+			#interactive_content{
+				float:left;
+				width: 40%;
+			}
+			#aside_content{
+				float:left;
+				width: 15%;
+			}
+			#footer_wrapper{
+				clear:both;	
+				width: 60em;
+				margin: 0 auto;
+			}
+		}
+		#page_wrapper header{	
+			position: relative;
+			height: 135px;
+			
+		}
+		body{
+			margin: 0 0;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		#page_wrapper{
+			background-image:url(images/header-bg.jpg); 
+			background-repeat:repeat-x;
+		}
+		.logo{
+			width: 241px;
+			height: 70px;
+			overflow: hidden;
+			padding-top: 10px;
+			margin-left: 10px;
+		}
+		.logo img{
+			width: 100%;
+		}
+		#nav-global{
+			position: absolute;
+			top: -5px;
+			right: 0px;
+			margin: 0;
+		}
+		ul {
+			list-style:none;
+			color: white;			
+		}
+		ul li{
+			display: inline;
+			padding-right: 10px;
+		}
+		a{
+			color: white;
+			font-size: 12px;
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+		#nav_inner nav, #interactive_content, #aside_content{
+			margin: 20px 10px;
+			background-color: #eed;
+			border: 1px solid #880;			
+		}
+		#footer_wrapper{
+			background-color: #eed;
+			border: 1px solid #880;	
+		}
+		.block img{
+		 width: 20%;
+		 float: left;
+		}
+	</style>
+</head>
+<body>
+	<div id="page_wrapper">
+		<header >
+			<div class="logo" >
+				<img src="images/companyLogo.png"></img>
+			</div>
+			<div id="nav-global" >
+				<ul>
+					<li><a href="#">Find a bank branch/ATM</a></li>
+					<li><a href="#">Enter your five digit zip code</a></li>
+				</ul>
+			</div>			
+		</header>
+		<div id="content_wrapper">
+			<div id="nav_inner">
+				<nav>
+					<ul>
+						<li>Menu1
+							<ul>
+								<li>Menu 1a</li>
+								<li>Menu 1b</li>
+							</ul>
+						</li>
+						<li>Menu2
+							<ul>
+								<li>Menu 2a</li>
+								<li>Menu 2b</li>
+							</ul>
+						</li>					
+					</ul>
+				</nav>
+			</div>
+			<div id="interactive_content" style="padding: 0px 20px;">
+				<h1>How to use</h1>
+				<p>Ever wondered what the difference between Adaptive, Responsive, Static and Liquid sites is? Had someone try and explain it only to be left more confused?<br>Pick a flavor from the drop down on the top of the page then drag your window narrower and wider, taller and shorter. It will make much more sense when you see for yourself how the approach works.</p>
+				<div class="block">
+					<div class="block_inner">
+						<img src="images/photo.jpg"></img>
+						<div class="block_content">
+							<h1>Title</h1>
+							<p>Month dd, yyyy</p>
+							<p>Content content content content content content content content content content content content content content content content</p>
+							<a href="#">link</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="aside_content" style="padding: 0px 20px;">
+				<div class="block">
+						<div class="block_content">
+							<h1>Title</h1>
+							<p>Month dd, yyyy</p>
+							<p>Content content content content content content content content content content content content content content content content</p>
+							<a href="#">link</a>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer_wrapper">
+			<p>Copy Rights</p>
+		</div>
+</div>
+</body>
+</html>
