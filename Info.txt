@@ -1,0 +1,7 @@
+Below are windows commandline commands to configure the proxy settings to install NPM (Node Modules from server)
+npm config set proxy http://<USERNAME>:<PASSWORD>@<PROXY URL>:<PORT NUMBER>
+npm config set https-proxy http://<USERNAME>:<PASSWORD>@<PROXY URL>:<PORT NUMBER>
+
+Below are windows commandline commands to configure the proxy settings to download git 
+git config --global http.proxy http://<USERNAME>:<PASSWORD>@<PROXY URL>:<PORT NUMBER>
+git config --global https.proxy https://<USERNAME>:<PASSWORD>@<PROXY URL>:<PORT NUMBER>
