@@ -1,7 +1,19 @@
-Below are windows commandline commands to configure the proxy settings to install NPM (Node Modules from server)
+1) Below are windows commandline commands to configure the proxy settings to install NPM (Node Modules from server)
 npm config set proxy http://<USERNAME>:<PASSWORD>@<PROXY URL>:<PORT NUMBER>
 npm config set https-proxy http://<USERNAME>:<PASSWORD>@<PROXY URL>:<PORT NUMBER>
 
-Below are windows commandline commands to configure the proxy settings to download git 
+2) Below are windows commandline commands to configure the proxy settings to download git 
 git config --global http.proxy http://<USERNAME>:<PASSWORD>@<PROXY URL>:<PORT NUMBER>
 git config --global https.proxy https://<USERNAME>:<PASSWORD>@<PROXY URL>:<PORT NUMBER>
+
+3) For Bower or other dependencies we need to have .gitconfig file(C:\Users\<USER NAME>\.gitconfig) like below
+
+[http]
+    proxy = http://ewy439:Sep(2014@proxy.kdc.capitalone.com:8099
+
+[https]
+    proxy = https://ewy439:Sep(2014@proxy.kdc.capitalone.com:8099
+
+[url "http://"]
+	insteadOf = git://
+
