@@ -1,4 +1,4 @@
-WebApp-Config
+Webapp-with-yeoman-workflow
 =============
 
 This is information section to setup settings for web application development environment.
