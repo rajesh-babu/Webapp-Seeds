@@ -9,10 +9,10 @@ git config --global https.proxy https://<USERNAME>:<PASSWORD>@<PROXY URL>:<PORT 
 3) For Bower or other dependencies we need to have .gitconfig file(C:\Users\<USER NAME>\.gitconfig) like below
 
 [http]
-    proxy = http://ewy439:Sep(2014@proxy.kdc.capitalone.com:8099
+    proxy = http://<USERNAME>:<PASSWORD>@<PROXY URL>:<PORT NUMBER>
 
 [https]
-    proxy = https://ewy439:Sep(2014@proxy.kdc.capitalone.com:8099
+    proxy = https://<USERNAME>:<PASSWORD>@<PROXY URL>:<PORT NUMBER>
 
 [url "http://"]
 	insteadOf = git://
