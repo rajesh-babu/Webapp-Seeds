@@ -1,4 +1,4 @@
-Webapp-with-yeoman-workflow
+Webapp Seed and Start new webapp with-yeoman-workflow
 =============
 
 You can build a fully functional web application from scratch with the help of Yeoman. You'll also use features from Grunt and Bower.
