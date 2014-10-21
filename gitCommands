@@ -12,3 +12,10 @@ git branch -a  //list branches
 git checkout -b gh-pages // to create a new branch and switch
 
 
+// To merge master into branch
+git checkout dmgr2      # gets you "on branch dmgr2"
+git fetch origin        # gets you up to date with origin
+git merge origin/master
+git push
+
+
