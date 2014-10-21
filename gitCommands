@@ -1,0 +1,14 @@
+http://rajesh-babu.github.io/canvas_animation/git clone git://github.com/rajesh-babu/canvas_animation.git
+git init
+cd canvas_animation
+git add index.html
+git commit -m "adding new file"
+git add images  //folder
+git commit -m "adding new directory
+git push
+
+git branch -a  //list branches
+
+git checkout -b gh-pages // to create a new branch and switch
+
+
