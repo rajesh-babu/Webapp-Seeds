@@ -1,0 +1,56 @@
+Sass Integration
+1. Ensure Sass modules installed using by seeing the folder named "grunt-contrib-sass" in "node_modules" folder
+2. If not installed goto https://github.com/gruntjs/grunt-contrib-sass and install using the command "npm install grunt-contrib-sass --save-dev"
+3. Put the below section in grunt initconfig under watch ( To initiate the process upon the file content change)
+
+sass: {
+		
+	files: ['<%= yeoman.app %>/styles/scss/{,*/}*.scss'],
+	
+	tasks: ['sass:dist'],
+		
+	options: {
+	
+		livereload: '<%= connect.options.livereload %>'
+	
+	}
+	
+  },
+
+4. Put the below section in initConfig under tasks ( It will compile and generate the .css and .map files to destination folder
+
+sass: {
+		
+	dist: {
+
+			options: {
+
+				style: 'compressed',
+
+				compass: false
+
+			},
+
+			files: {
+
+				'<%= yeoman.app %>/scss/styles/test.css': '<%= yeoman.app %>/styles/scss/test.scss'
+
+			}
+
+		}
+
+	},
+
+5. Register the task like below
+grunt.registerTask('default', [
+    
+    'newer:jshint',
+
+    'test',
+
+    'sass:dist',
+
+    'build'
+ 
+ ]);
+
