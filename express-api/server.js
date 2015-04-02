@@ -22,15 +22,15 @@ var dtArr = [{index:'m',segments:['Male','Mark'],values:['aa','bb','cc','dd']},
 			 {index:"f",segments:['Female'],values:['bb','cc','dd','ff']},
 			 {index:"g",segments:['Group','Gender'],values:['ee','gg','hh','ii']}];
 			 
-var jsonAll = '"output":[{"index":"m","segments":["Male","Mark"],"values":["aa","bb","cc","dd"]} ]';
+var objMap = {"result" : dtArr};
 var output;
 router.get('/user/:id', function(req, res) {
 
 	if(req.params.id === "all"){
-		output = JSON.stringify(dtArr[0]);
+		output = JSON.stringify(objMap);
 	}
 	
-    res.json(output);   
+    res.json(objMap);   
 });
 
 // more routes for our API will happen here
