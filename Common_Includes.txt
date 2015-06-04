@@ -8,3 +8,5 @@
     Include the above to Support IE 6-8 CSS3 Media queries (polyfill)
    -->
 <![endif]-->
+<script type="text/javascript" src="vendor/js-cookie/js.cookie.js"></script>
+<script type="text/javascript" src="vendor/hammerjs/hammer.min.js"></script>
