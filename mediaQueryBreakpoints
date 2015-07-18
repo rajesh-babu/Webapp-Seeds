@@ -1,29 +1,95 @@
-@media (min-width: 350px) {
+/**
+ * 1. Start Styles for Extra small devices (mobile phones) (Portrait + Landscape) 
+ */
+	@media screen and (max-width: 767px) {
+	}
+	@media (max-width: 767px) { 
+	}
+	@media (max-device-width: 480px) and (orientation: landscape) {
+	}
+/**************** 1. End Styles for Extra small devices (mobile phones) (Portrait + Landscape) ***********************/
 
-@media (min-width: 480px) {
 
-@media (min-width: 768px) {
+/**
+ * 2. Start Styles for Small devices (tablets) (Portrait + Landscape)
+ */
+	@media (min-width: 768px) and (max-width: 991px) { 
+	
+	}
+/**************** 2. End Styles for Small devices (tablets) (Portrait + Landscape)***************************/
 
-@media (min-width: 992px) {
+/**
+ * 3. Start Styles for Medium devices (Desktops)
+ */
+	@media (min-width: 992px) and (max-width: 1199px) { 
+	} 
+/**************** 3. End Styles for Medium deivices (Desktops) **************************/	
 
+/**
+ * 4. Start Styles for Large devices (Wide Desktops)
+ */
 @media (min-width: 1200px) {
+	
+}
+/***************** 4. End Styles for Large devices (Wide Desktops) **********************/	
 
-@media (max-width: 1200px) {
-
-@media screen and (max-width: 767px) {
-
-@media (max-width: 767px) {
-
-@media (max-device-width: 480px) and (orientation: landscape) {
-
+/**
+ * 5. Start Styles for Extra small and Small devices (Mobile phones and Tablets)
+ */
 @media (max-width: 991px) {
+	
+}
+/******************** 5. End Styles for Extra small devices and Small devices (Mobile phones and Tablets) *************/	
 
+/**
+ * 6. Start Styles for Extra small, Small and Medium devices (Mobile phones, Tablets and Desktops) 
+ */
+@media (max-width: 1200px) { 
+
+}
+/******************** 6. End Styles for Extra small, Small and Medium devices (Mobile phones, Tablets and Desktops)  ***/	
+
+/**
+ * 7. Start Styles for Extra small, Small, Medium and Large devices (Mobile phones, Tablets, Desktops, Wide Desktops) 
+ */
+@media (min-width: 350px) { 
+
+}
+/******************** 7. End Styles for Extra small, Small, Medium and Large devices (Mobile phones, Tablets, Desktops, Wide Desktops) ***/	
+
+/**
+ * 7a. Start Styles for Extra small (Landscape), Small, Medium and Large devices (Mobile phones, Tablets, Desktops, Wide Desktops)
+ */
+@media (min-width: 480px) {
+}
+/******************** 7a. End Styles for Extra small (Landscape), Small, Medium and Large devices (Mobile phones, Tablets, Desktops, Wide Desktops) ***/	
+
+/**
+ * 8. Start Styles for Small, Medium and Large devices ( Tablets, Desktops, Wide Desktops)
+ */
+@media (min-width: 768px) { 
+}
+/******************** 8. End Styles for Small, Medium and Large devices ( Tablets, Desktops, Wide Desktops) ***/	
+
+/**
+ * 8a. Start Styles for Small, Medium and Large devices ( Tablets, Desktops, Wide Desktops)
+ */
+@media screen and (min-width: 768px) { 
+}
+/******************** 8a. End Styles for Small, Medium and Large devices ( Tablets, Desktops, Wide Desktops) ***/	
+
+
+/**
+ * 9. Style for Medium and Large devices (Desktops, Wide Desktops)
+ */
 @media (min-width: 992px) {
+}
+/******************** 9. End Styles for Medium and Large devices (Desktops, Wide Desktops)  ***/	
 
-@media screen and (min-width: 768px) {
+/**
+ * 10. Retina display
+ */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
 
-@media (min-width: 768px) and (max-width: 991px) {
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+}
+/******************** 110. Retina display  ***/
